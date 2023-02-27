@@ -5,6 +5,7 @@ on:
     branches:
       - yoga
       - dev
+      - debug
   pull_request:
   workflow_dispatch:
     inputs:

@@ -129,9 +129,9 @@ void MPVCore::init() {
     // mpv_set_option_string(mpv, "msg-level", "ffmpeg=trace");
     // mpv_set_option_string(mpv, "msg-level", "all=no");
 
-#ifdef _DEBUG
+    //#ifdef _DEBUG
     mpv_set_option_string(mpv, "msg-level", "all=v");
-#endif
+    //#endif
 
     if (mpv_initialize(mpv) < 0) {
         mpv_terminate_destroy(mpv);

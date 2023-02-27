@@ -29,7 +29,7 @@ int main(int argc, char* argv[]) {
                         std::chrono::milliseconds(5000));
 
     // Set log level
-    brls::Logger::setLogLevel(brls::LogLevel::LOG_INFO);
+    brls::Logger::setLogLevel(brls::LogLevel::LOG_DEBUG);
 
 #ifdef DISK_LOG
     std::filesystem::create_directories(
